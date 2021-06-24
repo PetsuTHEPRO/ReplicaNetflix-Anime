@@ -1,8 +1,12 @@
+/* Reset */
+
 *{
     margin: 0px;
     padding: 0px;
-    
+    box-sizing: border-box;
 }
+
+/* Estilo do Site */
 
 body{
     background-color: rgb(19,19,19);
@@ -10,31 +14,39 @@ body{
 }
 
 h1{
+    font-size: 28px;
     font-family: sans-serif;
+    margin-left: 45px;
+    margin-top: 20px;
 }
 
 /* Estilo do menu */
 
 img{
-    max-width: 8%;
-    padding: 25px 25px 5px 40px;
-    border: 1px solid #fff;
+    max-width: 7%;
+    position: absolute;
+    margin: 20px 20px 0px 45px;
+    padding: 0;
 }
 
 ul{
-    background-color: aqua;
     list-style: none;
+    padding-left: 170px;
 }
 
 li{
     display: inline;
     font-family: sans-serif;
-    border: 1px solid #fff;
+    padding-right: 0px;
 }
 
 a{
     display: inline-block;
-    padding: 20px;
+    padding: 25px 8px;
     color: white;
     text-decoration: none;    
+}
+
+a:hover{
+    color:rgb(200,200,200);
 }

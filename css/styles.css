@@ -18,16 +18,21 @@ h1{
     font-family: sans-serif;
     margin-left: 45px;
     margin-top: 20px;
+    margin-bottom: 5px;
 }
 
-/* Estilo do menu */
-
-img{
+img#logo{
     max-width: 7%;
     position: absolute;
     margin: 20px 20px 0px 45px;
     padding: 0;
 }
+
+img{
+    margin-left: 47px;
+}
+
+/* Estilo do menu */
 
 ul{
     list-style: none;

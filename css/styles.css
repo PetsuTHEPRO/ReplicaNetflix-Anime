@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+body{
+    background-color: rgb(19,19,19);
+    color: white;
+}
+
+h1{
+    font-family: sans-serif;
+}
+
+/* Estilo do menu */
+
+img{
+    max-width: 8%;
+    padding: 25px 25px 5px 40px;
+    border: 1px solid #fff;
+}
+
+ul{
+    background-color: aqua;
+    list-style: none;
+}
+
+li{
+    display: inline;
+    font-family: sans-serif;
+    border: 1px solid #fff;
+}
+
+a{
+    display: inline-block;
+    padding: 20px;
+    color: white;
+    text-decoration: none;    
+}
